@@ -1,5 +1,7 @@
 *~
 .*sw?
+.project
+.pydevproject
 
 #### joe made this: http://goel.io/joe
 
@@ -64,3 +66,5 @@ docs/_build/
 # PyBuilder
 target/
 
+venv
+.project
