@@ -1,14 +1,14 @@
 import os
 import re
 import unittest
-import tenline
+import tenlineapp
 
 class TenLineTestCase(unittest.TestCase):
 
     def setUp(self):
-        tenline.app.config['TESTING'] = True
-        self.app = tenline.app.test_client()
-        with tenline.app.app_context():
+        tenlineapp.app.config['TESTING'] = True
+        self.app = tenlineapp.app.test_client()
+        with tenlineapp.app.app_context():
             pass
 
     def tearDown(self):
