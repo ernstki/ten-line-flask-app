@@ -2,6 +2,7 @@
 .*sw?
 .project
 .pydevproject
+.settings
 
 #### joe made this: http://goel.io/joe
 
