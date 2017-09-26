@@ -36,7 +36,7 @@ Flask app to the next level by creating a Python module for it and adding
 a `setup.py` installation script.
 
 Can you find the bug? When the [`home.html` template][htpl] renders, it should
-greet you with "Hello from <your hostname>" instead of "Hello from nowhere."
+greet you with "Hello from _yourhostname_" instead of "Hello from nowhere."
 See [issue #1][iss1] for details.
 
 
