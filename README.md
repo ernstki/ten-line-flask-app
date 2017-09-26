@@ -31,13 +31,13 @@ xdg-open http://127.0.0.1:5000  # or just 'open' on OS X / macOS
 
 ## Notes
 
-See the open pull request (!1) for an example of how to take a simple Flask
-app to the next level by creating a Python module for it and adding
+See the open [pull request #2][pr2] for an example of how to take a simple
+Flask app to the next level by creating a Python module for it and adding
 a `setup.py` installation script.
 
 Can you find the bug? When the [`home.html` template][htpl] renders, it should
 greet you with "Hello from <your hostname>" instead of "Hello from nowhere."
-See #1 for details.
+See [issue #1][iss1] for details.
 
 
 ## Author
@@ -51,5 +51,7 @@ Distributed under the terms of the [WTFPL][].
 
 
 [pip]: https://pip.readthedocs.io/en/stable/installing/
+[pr2]: ../../pull/2
 [htpl]: templates/home.html#L25
+[iss1]: ../../issues/1
 [wtfpl]: http://www.wtfpl.net/about/
