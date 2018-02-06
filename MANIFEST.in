@@ -1,0 +1,2 @@
+recursive-include tenline/templates *
+recursive-include tenline/static *
